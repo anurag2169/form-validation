@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <script
+      src="https://kit.fontawesome.com/68b0930232.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <div class="form-group">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" />
+          <small>err msg</small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <small>err msg</small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <i class="fa-solid fa-eye toggle-password"></i>
+          <small>err msg</small>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword ">Confirm Password :</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" />
+          <i class="fa-solid fa-eye toggle-password"></i>
+          <small>err msg</small>
+        </div>
+        <button type="submit" value="submit" class="btn">Sign Up</button>
+      </form>
+      <p>
+        Already have an account? <a href="../login/login.html">Login here</a>
+      </p>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

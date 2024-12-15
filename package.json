@@ -1,0 +1,19 @@
+{
+  "name": "from-validation-project",
+  "version": "1.0.0",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "serve",
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A simple form validation project with signup and login functionality",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.4"
+  }
+}

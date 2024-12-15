@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <script
+      src="https://kit.fontawesome.com/68b0930232.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <small>err msg</small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <i class="fa-solid fa-eye toggle-password"></i>
+          <small>err msg</small>
+        </div>
+        <button type="submit" value="submit" class="btn">Login</button>
+      </form>
+      <p>
+        Don't have an account? <a href="../signup/signup.html">Sign up here</a>
+      </p>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
