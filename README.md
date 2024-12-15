@@ -6,11 +6,11 @@ A responsive form validation project featuring signup and login functionality wi
 
 1. Clone the Repository
 
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/anurag2169/form-validation.git
 
 2. Navigate to the Project Directory
 
-   cd your-repo-name
+   cd form-validation
 
 3. Install Dependencies
 
@@ -21,6 +21,8 @@ A responsive form validation project featuring signup and login functionality wi
    npm run dev or npm start
 
 5. Access the Application
+
+   (http://localhost:3000/)
 
 ## Approach for Form Validation Project
 

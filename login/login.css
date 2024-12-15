@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #667eea;
+  --error-color: #e74c3c;
+  --secondary-color: #764ba2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +12,11 @@
 }
 
 body {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,15 +48,15 @@ h2 {
 }
 
 .form-group.success input {
-  border-color: #667eea;
+  border-color: var(--primary-color);
 }
 
 .form-group.error input {
-  border-color: #e74c3c;
+  border-color: var(--error-color);
 }
 
 .form-group small {
-  color: #e74c3c;
+  color: var(--error-color);
   position: absolute;
   left: 0;
   visibility: hidden;
@@ -77,14 +87,14 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--primary-color);
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
 button {
   width: 100%;
   padding: 12px;
-  background: #667eea;
+  background: var(--primary-color);
   color: white;
   border: none;
   border-radius: 8px;
@@ -113,7 +123,7 @@ p {
 }
 
 a {
-  color: #667eea;
+  color: var(--primary-color);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -141,7 +151,7 @@ a:hover {
 }
 
 .toggle-password:hover {
-  color: #667eea;
+  color: var(--primary-color);
 }
 
 /* Animation */
